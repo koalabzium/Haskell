@@ -25,9 +25,6 @@ kuc [] = []
 kuc (a:t) = a:a:a:kuc t
 
 
-
-
-
 --[1,2,3]
 --1:1:1:kuc([2,3])
 --2:2:2:kuc([3])
@@ -40,8 +37,19 @@ sum2b (m:n:_) = m + n
 suma [] = []
 suma [a] = a
 
-zipp [] [] = []
-zipp (a:t) (b:u) = (a,b):zipp t u
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
